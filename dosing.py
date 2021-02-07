@@ -4,8 +4,6 @@
     NOTE:  This is a programming example, and should not be used for any
              type of medical treatment or diagnostics.
 """
-
-
     # INPUT
 def get_input():
     print("Day One Dosing Guidelines")
@@ -38,8 +36,7 @@ def data_manipulation(weight_input, diagnosis):
 def do_output(dosage_mg_first_day, weight):
     print("CORRECT DOSAGE")
     print("For a patient weighing {:.1f} kg,".format(weight))
-    print("  the correct dosage is {:.1f} mg the first day"
-          .format(dosage_mg_first_day))
+    print("  the correct dosage is {:.1f} mg the first day".format(dosage_mg_first_day))
 
 def dosing_function():
     weight, diag = get_input()
@@ -49,4 +46,3 @@ def dosing_function():
 
 if __name__ == '__main__':
     dosing_function()
-
